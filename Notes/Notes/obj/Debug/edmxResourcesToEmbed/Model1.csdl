@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Konsom_NotesSet" EntityType="Model1.Konsom_Notes" />
+  </EntityContainer>
+  <EntityType Name="Konsom_Notes">
+    <Key>
+      <PropertyRef Name="Id_Notes" />
+    </Key>
+    <Property Name="Id_Notes" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_note" Type="String" Nullable="false" />
+    <Property Name="Note" Type="String" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" />
+  </EntityType>
+</Schema>

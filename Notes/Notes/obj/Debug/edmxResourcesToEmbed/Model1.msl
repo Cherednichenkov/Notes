@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="Konsom_NotesSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Konsom_Notes)">
+        <MappingFragment StoreEntitySet="Konsom_NotesSet">
+          <ScalarProperty Name="Id_Notes" ColumnName="Id_Notes" />
+          <ScalarProperty Name="Name_note" ColumnName="Name_note" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
